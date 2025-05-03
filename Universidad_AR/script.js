@@ -54,12 +54,6 @@ const texts = {
     content:
       "Cumplir con esmero, responsabilidad y eficiencia las funciones y tareas asignadas, procurando siempre la excelencia. En la Universidad Popular del Cesar, la diligencia impulsa una cultura del trabajo bien hecho, del esfuerzo constante y del compromiso con la mejora continua en los procesos académicos y administrativos.",
   },
-
-  veracidad: {
-    title: "Valor Intitucional: VERACIDAD",
-    content:
-      "Expresar siempre la verdad con responsabilidad y sin distorsiones, en la búsqueda del conocimiento y en las relaciones interpersonales. La veracidad en la Universidad Popular del Cesar es base para la confianza institucional, la credibilidad académica y el ejercicio crítico y reflexivo de la libertad de pensamiento.",
-  },
 }
 
 // Función para actualizar el estado de los botones
@@ -195,10 +189,7 @@ document.querySelector("#marker-diligencia").addEventListener("markerFound", () 
   showMarkerContent("marker-diligencia")
   document.querySelector("#diligencia-model").setAttribute("scale", "1 1 1")
 })
-document.querySelector("#marker-veracidad").addEventListener("markerFound", () => {
-  showMarkerContent("marker-veracidad")
-  document.querySelector("#veracidad-model").setAttribute("scale", "1 1 1")
-})
+
 
 // Detectar cuándo un marcador se pierde
 document.querySelector("#marker-economia").addEventListener("markerLost", () => {
@@ -225,9 +216,7 @@ document.querySelector("#marker-compromiso").addEventListener("markerLost", () =
 document.querySelector("#marker-diligencia").addEventListener("markerLost", () => {
   hideMarkerContent("marker-diligencia")
 })
-document.querySelector("#marker-veracidad").addEventListener("markerLost", () => {
-  hideMarkerContent("marker-veracidad")
-})
+
 
 // Función para iniciar la reproducción
 playBtn.addEventListener("click", () => {
