@@ -227,7 +227,7 @@ playBtn.addEventListener("click", () => {
     const utterance = new SpeechSynthesisUtterance(textElement.innerText)
     utterance.lang = "es-ES"
     utterance.rate = 1.0
-    utterance.pitch = 0.7
+    utterance.pitch = 0.9
 
     const loadingTimeout = setTimeout(() => {
       hideLoadingState()
