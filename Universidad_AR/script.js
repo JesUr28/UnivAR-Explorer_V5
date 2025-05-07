@@ -16,7 +16,7 @@ const texts = {
   economia: {
     title: "Programa: ECONOMÍA",
     content:
-      "El programa de Economía otorga el título de Economista, corresponde al nivel de pregrado y se ofrece como formación profesional universitaria bajo la metodología presencial y jornada única. Tiene una duración de 10 semestres, con un total de 175 créditos académicos, y pertenece a la Facultad de Ciencias Administrativas, Contables y Económicas. El número máximo de estudiantes admitidos en primer semestre es de 100, con una periodicidad de admisión semestral. Cuenta con registro calificado, aprobado mediante la Resolución No. 2439 del 7 de marzo de 2024, y está identificado con el Código SNIES 105814. Su creación se rige por norma interna a través de un acuerdo, y el programa se ofrece en la sede ubicada en Aguachica, departamento del Cesar.",
+      "El programa de Economía otorga el título de Economista, corresponde al nivel de pregrado y se ofrece como formación profesional universitaria bajo la metodología presencial y jornada única.\n\nTiene una duración de 10 semestres, con un total de 175 créditos académicos, y pertenece a la Facultad de Ciencias Administrativas, Contables y Económicas.\n\nEl número máximo de estudiantes admitidos en primer semestre es de 100, con una periodicidad de admisión semestral.\n\nCuenta con registro calificado, aprobado mediante la Resolución No. 2439 del 7 de marzo de 2024, y está identificado con el Código SNIES 105814.\n\nSu creación se rige por norma interna a través de un acuerdo, y el programa se ofrece en la sede ubicada en Aguachica, departamento del Cesar.",
   },
   mision: {
     title: "Universidad: MISIÓN",
