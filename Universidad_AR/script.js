@@ -13,45 +13,40 @@ const titleElement = document.getElementById("title")
 const instructionMessage = document.getElementById("instruction-message")
 
 const texts = {
-  economia: {
-    title: "Programa: ECONOMÍA",
+  historia: {
+    title: "Universidad: HISTORIA",
     content:
-      "El programa de Economía otorga el título de Economista, corresponde al nivel de pregrado y se ofrece como formación profesional universitaria bajo la metodología presencial y jornada única.\n\nTiene una duración de 10 semestres, con un total de 175 créditos académicos, y pertenece a la Facultad de Ciencias Administrativas, Contables y Económicas.\n\nEl número máximo de estudiantes admitidos en primer semestre es de 100, con una periodicidad de admisión semestral.\n\nCuenta con registro calificado, aprobado mediante la Resolución No. 2439 del 7 de marzo de 2024, y está identificado con el Código SNIES 105814.\n\nSu creación se rige por norma interna a través de un acuerdo, y el programa se ofrece en la sede ubicada en Aguachica, departamento del Cesar.",
+      "La Universidad Popular del Cesar, Seccional Aguachica, es una institución de educación superior dedicada a la formación integral del ser humano, con énfasis en la docencia, la investigación y la proyección social.\n\nEn sus más de 20 años de historia, ha contribuido al desarrollo educativo, científico, cultural y social del sur del Cesar y su área de influencia. Cuenta con un campus moderno, laboratorios, salas de cómputo y Biblioteca.\n\nActualmente ofrece siete programas de pregrado: Ingeniería de Sistemas, Ingeniería Agroindustrial, Ingeniería Ambiental y Sanitaria, Administración de Empresas, Contaduría, Economía e Ingeniería Agropecuaria, además de especializaciones, y avanza en la apertura de nuevas carreras. ",
   },
   mision: {
     title: "Universidad: MISIÓN",
     content:
       "La Universidad Popular del Cesar, como institución de educación superior oficial del orden nacional, forma personas responsables social y culturalmente; con una educación de calidad, integral e inclusiva, rigor científico y tecnológico; mediante las diferentes modalidades y metodologías de educación, a través de programas pertinentes al contexto, dentro de la diversidad de campos disciplinares, en un marco de libertad de pensamiento; que consolide la construcción de saberes, para contribuir a la solución de problemas y conflictos, en un ambiente sostenible, con visibilidad nacional e internacional.",
   },
-  logo: {
-    title: "LOGO",
-    content:
-      "La marca gráfica es el principal signo identificador de la Universidad Popular del Cesar y está conformada por un símbolo con las letras UPC y la representación del ser humano, y el logotipo.\n\nEs la firma de la institución en la cual se manifiestan sus valores, principios y personalidad, originando un impacto y un reconocimiento en la memoria.",
-  },
-  honestidad: {
-    title: "Universidad: HISTORIA",
-    content:
-      "La Universidad Popular del Cesar, Seccional Aguachica, es una institución de educación superior dedicada a la formación integral del ser humano, con énfasis en la docencia, la investigación y la proyección social.\n\nEn sus más de 20 años de historia, ha contribuido al desarrollo educativo, científico, cultural y social del sur del Cesar y su área de influencia. Cuenta con un campus moderno, laboratorios, salas de cómputo y Biblioteca.\n\nActualmente ofrece siete programas de pregrado: Ingeniería de Sistemas, Ingeniería Agroindustrial, Ingeniería Ambiental y Sanitaria, Administración de Empresas, Contaduría, Economía e Ingeniería Agropecuaria, además de especializaciones, y avanza en la apertura de nuevas carreras. ",
-  },
-  respeto: {
-    title: "Universidad: HIMNO",
-    content:
-      "El himno de la Universidad Popular del Cesar, escrito y musicalizado por la docente Martha Esther Guerra Muñoz, es una expresión poética del espíritu académico, cultural y humano de la institución.\n\n Su letra exalta valores como el humanismo, la libertad, el conocimiento y la diversidad, resaltando la importancia de la educación como faro de esperanza y transformación.\n\n Con un tono solemne y emotivo, el himno rinde homenaje a la historia, el entorno natural, y el compromiso de estudiantes y docentes con la construcción de un futuro mejor. ",
-  },
-  justicia: {
+  vision: {
     title: "Universidad: VISIÓN",
     content:
       "En el año 2025, la Universidad Popular del Cesar será una Institución de Educación Superior de alta calidad, incluyente y transformadora; comprometida en el desarrollo sustentable de la Región, con visibilidad nacional y alcance internacional. ",
   },
-  compromiso: {
+  escudo: {
     title: "Universidad: ESCUDO",
     content:
-      "El escudo de la Universidad Popular del Cesar simboliza el conocimiento y la superación. El diamante representa la luz de la educación, mientras que el azul y el negro reflejan la búsqueda de la verdad y la lucha contra la ignorancia.\n\n Inspirado en la mitología griega, el fuego de Prometeo simboliza la inteligencia, y los laureles representan los logros culturales y académicos. \n\n El escudo se enmarca con el lema "Educación y Futuro", destacando el compromiso de la universidad con el desarrollo y la formación integral. ",
+      "El escudo de la Universidad Popular del Cesar simboliza el conocimiento y la superación. El diamante representa la luz de la educación, mientras que el azul y el negro reflejan la búsqueda de la verdad y la lucha contra la ignorancia.\n\n Inspirado en la mitología griega, el fuego de Prometeo simboliza la inteligencia, y los laureles representan los logros culturales y académicos. \n\n El escudo se enmarca con el lema -Educación y Futuro-, destacando el compromiso de la universidad con el desarrollo y la formación integral. ",
 
-  diligencia: {
+  bandera: {
     title: "Universidad: BANDERA",
     content:
       "Tiene un diseño muy sobrio pero inconfundible, porque le podemos reconocer a lo lejos que es nuestra bandera. Representa el todo y la parte, la esperanza y la blancura impoluta y guarda uniformidad con el ESCUDO ya que se haya estampado en el centro. ",
+  },
+  himno: {
+  title: "Universidad: HIMNO",
+  content:
+    "El himno de la Universidad Popular del Cesar, escrito y musicalizado por la docente Martha Esther Guerra Muñoz, es una expresión poética del espíritu académico, cultural y humano de la institución.\n\n Su letra exalta valores como el humanismo, la libertad, el conocimiento y la diversidad, resaltando la importancia de la educación como faro de esperanza y transformación.\n\n Con un tono solemne y emotivo, el himno rinde homenaje a la historia, el entorno natural, y el compromiso de estudiantes y docentes con la construcción de un futuro mejor. ",
+  }, 
+  logo: {
+    title: "LOGO",
+    content:
+      "La marca gráfica es el principal signo identificador de la Universidad Popular del Cesar y está conformada por un símbolo con las letras UPC y la representación del ser humano, y el logotipo.\n\nEs la firma de la institución en la cual se manifiestan sus valores, principios y personalidad, originando un impacto y un reconocimiento en la memoria.",
   },
 }
 
@@ -155,67 +150,58 @@ function hideMarkerContent(markerId) {
 }
 
 // Detectar cuándo un marcador es visible
-document.querySelector("#marker-economia").addEventListener("markerFound", () => {
-  showMarkerContent("marker-economia")
+document.querySelector("#marker-historia").addEventListener("markerFound", () => {
+  showMarkerContent("marker-historia")
   // Restablecer escala al tamaño original 
-  document.querySelector("#economia-model").setAttribute("scale", "0.6 1 1")
+  document.querySelector("#historia-model").setAttribute("scale", "0.6 1 1")
 })
 document.querySelector("#marker-mision").addEventListener("markerFound", () => {
   showMarkerContent("marker-mision")
-  document.querySelector("#mision-model").setAttribute("scale", "0.6 1 1")
+  document.querySelector("#mision-model").setAttribute("scale", "1 1 1")
+})
+document.querySelector("#marker-vision").addEventListener("markerFound", () => {
+  showMarkerContent("marker-vision")
+  document.querySelector("#vision-model").setAttribute("scale", "1 1 1")
+})
+document.querySelector("#marker-escudo").addEventListener("markerFound", () => {
+  showMarkerContent("marker-escudo")
+  document.querySelector("#escudo-model").setAttribute("scale", "0.6 1 1")
+})
+document.querySelector("#marker-bandera").addEventListener("markerFound", () => {
+  showMarkerContent("marker-bandera")
+  document.querySelector("#bandera-model").setAttribute("scale", "0.6 1 1")
+})
+document.querySelector("#marker-himno").addEventListener("markerFound", () => {
+  showMarkerContent("marker-himno")
+  document.querySelector("#himno-model").setAttribute("scale", "1 1 1")
 })
 document.querySelector("#marker-logo").addEventListener("markerFound", () => {
   showMarkerContent("marker-logo")
   document.querySelector("#logo-model").setAttribute("scale", "0.6 1 1")
 })
-document.querySelector("#marker-honestidad").addEventListener("markerFound", () => {
-  showMarkerContent("marker-honestidad")
-  document.querySelector("#honestidad-model").setAttribute("scale", "1 1 1")
-})
-document.querySelector("#marker-respeto").addEventListener("markerFound", () => {
-  showMarkerContent("marker-respeto")
-  document.querySelector("#respeto-model").setAttribute("scale", "1 1 1")
-})
-document.querySelector("#marker-justicia").addEventListener("markerFound", () => {
-  showMarkerContent("marker-justicia")
-  document.querySelector("#justicia-model").setAttribute("scale", "1 1 1")
-})
-document.querySelector("#marker-compromiso").addEventListener("markerFound", () => {
-  showMarkerContent("marker-compromiso")
-  document.querySelector("#compromiso-model").setAttribute("scale", "1 1 1")
-})
-document.querySelector("#marker-diligencia").addEventListener("markerFound", () => {
-  showMarkerContent("marker-diligencia")
-  document.querySelector("#diligencia-model").setAttribute("scale", "1 1 1")
-})
-
 
 // Detectar cuándo un marcador se pierde
-document.querySelector("#marker-economia").addEventListener("markerLost", () => {
-  hideMarkerContent("marker-economia")
+document.querySelector("#marker-historia").addEventListener("markerLost", () => {
+  hideMarkerContent("marker-historia")
 })
 document.querySelector("#marker-mision").addEventListener("markerLost", () => {
   hideMarkerContent("marker-mision")
 })
+document.querySelector("#marker-vision").addEventListener("markerLost", () => {
+  hideMarkerContent("marker-vision")
+})
+document.querySelector("#marker-escudo").addEventListener("markerLost", () => {
+  hideMarkerContent("marker-escudo")
+})
+document.querySelector("#marker-bandera").addEventListener("markerLost", () => {
+  hideMarkerContent("marker-bandera")
+})
+document.querySelector("#marker-himno").addEventListener("markerLost", () => {
+  hideMarkerContent("marker-himno")
+})
 document.querySelector("#marker-logo").addEventListener("markerLost", () => {
   hideMarkerContent("marker-logo")
 })
-document.querySelector("#marker-honestidad").addEventListener("markerLost", () => {
-  hideMarkerContent("marker-honestidad")
-})
-document.querySelector("#marker-respeto").addEventListener("markerLost", () => {
-  hideMarkerContent("marker-respeto")
-})
-document.querySelector("#marker-justicia").addEventListener("markerLost", () => {
-  hideMarkerContent("marker-justicia")
-})
-document.querySelector("#marker-compromiso").addEventListener("markerLost", () => {
-  hideMarkerContent("marker-compromiso")
-})
-document.querySelector("#marker-diligencia").addEventListener("markerLost", () => {
-  hideMarkerContent("marker-diligencia")
-})
-
 
 // Función para iniciar la reproducción
 playBtn.addEventListener("click", () => {
