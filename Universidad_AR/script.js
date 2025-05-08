@@ -32,7 +32,7 @@ const texts = {
     title: "Universidad: ESCUDO",
     content:
       "El escudo de la Universidad Popular del Cesar simboliza el conocimiento y la superación. El diamante representa la luz de la educación, mientras que el azul y el negro reflejan la búsqueda de la verdad y la lucha contra la ignorancia.\n\n Inspirado en la mitología griega, el fuego de Prometeo simboliza la inteligencia, y los laureles representan los logros culturales y académicos. \n\n El escudo se enmarca con el lema -Educación y Futuro-, destacando el compromiso de la universidad con el desarrollo y la formación integral. ",
-
+  },
   bandera: {
     title: "Universidad: BANDERA",
     content:
