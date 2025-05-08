@@ -34,9 +34,9 @@ const texts = {
       "La Universidad Popular del Cesar, Seccional Aguachica, es una institución de educación superior dedicada a la formación integral del ser humano, con énfasis en la docencia, la investigación y la proyección social.\n\nEn sus más de 20 años de historia, ha contribuido al desarrollo educativo, científico, cultural y social del sur del Cesar y su área de influencia. Cuenta con un campus moderno, laboratorios, salas de cómputo y Biblioteca.\n\nActualmente ofrece siete programas de pregrado: Ingeniería de Sistemas, Ingeniería Agroindustrial, Ingeniería Ambiental y Sanitaria, Administración de Empresas, Contaduría, Economía e Ingeniería Agropecuaria, además de especializaciones, y avanza en la apertura de nuevas carreras. ",
   },
   respeto: {
-    title: "Valor Intitucional: RESPETO",
+    title: "Universidad: HIMNO",
     content:
-      "Reconocer y valorar la dignidad, ideas, creencias y diferencias de los demás, manteniendo una convivencia armónica. En la Universidad Popular del Cesar, el respeto es un pilar esencial para construir una comunidad incluyente, tolerante y democrática, donde el diálogo y la aceptación de la diversidad enriquecen el proceso formativo.",
+      "El himno de la Universidad Popular del Cesar, escrito y musicalizado por la docente Martha Esther Guerra Muñoz, es una expresión poética del espíritu académico, cultural y humano de la institución.\n\n Su letra exalta valores como el humanismo, la libertad, el conocimiento y la diversidad, resaltando la importancia de la educación como faro de esperanza y transformación.\n\n Con un tono solemne y emotivo, el himno rinde homenaje a la historia, el entorno natural, y el compromiso de estudiantes y docentes con la construcción de un futuro mejor. ",
   },
   justicia: {
     title: "Valor Intitucional: JUSTICIA",
