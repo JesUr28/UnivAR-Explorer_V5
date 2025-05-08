@@ -29,9 +29,9 @@ const texts = {
       "La marca gráfica es el principal signo identificador de la Universidad Popular del Cesar y está conformada por un símbolo con las letras UPC y la representación del ser humano, y el logotipo.\n\nEs la firma de la institución en la cual se manifiestan sus valores, principios y personalidad, originando un impacto y un reconocimiento en la memoria.",
   },
   honestidad: {
-    title: "Valor Intitucional: HONESTIDAD",
+    title: "Universidad: HISTORIA",
     content:
-      "Actuar con transparencia, rectitud y coherencia entre lo que se piensa, se dice y se hace, fomentando la confianza y el respeto mutuo. La honestidad en la Universidad Popular del Cesar guía el comportamiento ético de todos sus miembros, promoviendo relaciones basadas en la verdad y la integridad, fundamentales para el desarrollo académico y humano.",
+      "La Universidad Popular del Cesar, Seccional Aguachica, es una institución de educación superior dedicada a la formación integral del ser humano, con énfasis en la docencia, la investigación y la proyección social.\n\nEn sus más de 20 años de historia, ha contribuido al desarrollo educativo, científico, cultural y social del sur del Cesar y su área de influencia. Cuenta con un campus moderno, laboratorios, salas de cómputo y Biblioteca.\n\nActualmente ofrece siete programas de pregrado: Ingeniería de Sistemas, Ingeniería Agroindustrial, Ingeniería Ambiental y Sanitaria, Administración de Empresas, Contaduría, Economía e Ingeniería Agropecuaria, además de especializaciones, y avanza en la apertura de nuevas carreras. ",
   },
   respeto: {
     title: "Valor Intitucional: RESPETO",
