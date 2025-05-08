@@ -18,69 +18,61 @@
                      vr-mode-ui="enabled: false" renderer="logarithmicDepthBuffer: true; alpha: true"
                      gesture-detector>
                 <a-assets>
-                    <a-asset-item id="economia" src="https://cdn.glitch.global/f24dfbcf-5d5a-489d-b6c0-b547e6c91644/ECONOMIAP1.glb"></a-asset-item>
+                    <a-asset-item id="historia" src="https://cdn.glitch.global/f24dfbcf-5d5a-489d-b6c0-b547e6c91644/Historia3.glb"></a-asset-item>
                     <a-asset-item id="mision" src="https://cdn.glitch.global/f24dfbcf-5d5a-489d-b6c0-b547e6c91644/Mision10.glb"></a-asset-item>
+                    <a-asset-item id="vision" src="https://cdn.glitch.global/f24dfbcf-5d5a-489d-b6c0-b547e6c91644/Vision.glb"></a-asset-item>             
+                    <a-asset-item id="escudo" src="https://cdn.glitch.global/f24dfbcf-5d5a-489d-b6c0-b547e6c91644/escudo10.glb"></a-asset-item>
+                    <a-asset-item id="bandera" src="https://cdn.glitch.global/f24dfbcf-5d5a-489d-b6c0-b547e6c91644/Bandera.glb"></a-asset-item>
+                    <a-asset-item id="himno" src="https://cdn.glitch.global/f24dfbcf-5d5a-489d-b6c0-b547e6c91644/Himno.glb"></a-asset-item>
                     <a-asset-item id="logo" src="https://cdn.glitch.global/f24dfbcf-5d5a-489d-b6c0-b547e6c91644/LOGO2.glb"></a-asset-item>
-                    <a-asset-item id="honestidad" src="https://cdn.glitch.global/f24dfbcf-5d5a-489d-b6c0-b547e6c91644/Historia3.glb"></a-asset-item>
-                    <a-asset-item id="respeto" src="https://cdn.glitch.global/f24dfbcf-5d5a-489d-b6c0-b547e6c91644/Himno.glb"></a-asset-item>  <!-- prudencia -->
-                    <a-asset-item id="justicia" src="https://cdn.glitch.global/f24dfbcf-5d5a-489d-b6c0-b547e6c91644/Vision.glb"></a-asset-item>
-                    <a-asset-item id="compromiso" src="https://cdn.glitch.global/f24dfbcf-5d5a-489d-b6c0-b547e6c91644/escudo10.glb"></a-asset-item>
-                    <a-asset-item id="diligencia" src="https://cdn.glitch.global/f24dfbcf-5d5a-489d-b6c0-b547e6c91644/Bandera.glb"></a-asset-item>
                 </a-assets>
                 
                 <!-- Marcadores-->
-                <a-marker type="pattern" url="markers/pattern-E1.patt" id="marker-economia">
-                    <a-entity id="economia-model" gltf-model="#economia" scale="0.6 1 1"
+                <a-marker type="pattern" url="markers/pattern-U1.patt" id="marker-historia">
+                    <a-entity id="historia-model" gltf-model="#historia" scale="0.6 1 1"
                               position="0 0 0" animation-mixer="loop: repeat"
                               class="clickable" gesture-handler>
                     </a-entity>
                 </a-marker>
                 
                 <a-marker type="pattern" url="markers/pattern-M.patt" id="marker-mision">
-                    <a-entity id="mision-model" gltf-model="#mision" scale="0.6 1 1"
+                    <a-entity id="mision-model" gltf-model="#mision" scale="1 1 1"
                               position="0 0 0" animation-mixer="loop: repeat"
                               class="clickable" gesture-handler>
                     </a-entity>
                 </a-marker>
+                
+                <a-marker type="pattern" url="markers/pattern-V.patt" id="marker-vision">
+                    <a-entity id="vision-model" gltf-model="#vision" scale="1 1 1"
+                              position="0 0 0" animation-mixer="loop: repeat" 
+                              class="clickable" gesture-handler>
+                    </a-entity>
+                </a-marker>
+                
+                <a-marker type="pattern" url="markers/pattern-E1.patt" id="marker-escudo">
+                    <a-entity id="escudo-model" gltf-model="#escudo" scale="0.6 1 1"
+                              position="0 0 0" animation-mixer="loop: repeat" 
+                              class="clickable" gesture-handler>
+                    </a-entity>
+                </a-marker>
+                
+                <a-marker type="pattern" url="markers/pattern-B1.patt" id="marker-bandera">
+                    <a-entity id="bandera-model" gltf-model="#bandera" scale="0.6 1 1"
+                              position="0 0 0" animation-mixer="loop: repeat" 
+                              class="clickable" gesture-handler>
+                    </a-entity>
+                </a-marker>
 
+                <a-marker type="pattern" url="markers/pattern-O1.patt" id="marker-himno">
+                    <a-entity id="himno-model" gltf-model="#himno" scale="1 1 1"
+                              position="0 0 0" animation-mixer="loop: repeat" 
+                              class="clickable" gesture-handler>
+                    </a-entity>
+                </a-marker>
+                
                 <a-marker type="pattern" url="markers/pattern-L.patt" id="marker-logo">
                     <a-entity id="logo-model" gltf-model="#logo" scale="0.6 1 1"
                               position="0 0 0" animation-mixer="loop: repeat"
-                              class="clickable" gesture-handler>
-                    </a-entity>
-                </a-marker>
-                
-                <a-marker type="pattern" url="markers/pattern-B1.patt" id="marker-honestidad">
-                    <a-entity id="honestidad-model" gltf-model="#honestidad" scale="1 1 1"
-                              position="0 0 0" animation-mixer="loop: repeat" 
-                              class="clickable" gesture-handler>
-                    </a-entity>
-                </a-marker>
-                
-                <a-marker type="pattern" url="markers/pattern-O1.patt" id="marker-respeto">
-                    <a-entity id="respeto-model" gltf-model="#respeto" scale="1 1 1"
-                              position="0 0 0" animation-mixer="loop: repeat" 
-                              class="clickable" gesture-handler>
-                    </a-entity>
-                </a-marker>
-                
-                <a-marker type="pattern" url="markers/pattern-U1.patt" id="marker-justicia">
-                    <a-entity id="justicia-model" gltf-model="#justicia" scale="1 1 1"
-                              position="0 0 0" animation-mixer="loop: repeat" 
-                              class="clickable" gesture-handler>
-                    </a-entity>
-                </a-marker>
-
-                <a-marker type="pattern" url="markers/pattern-V.patt" id="marker-compromiso">
-                    <a-entity id="compromiso-model" gltf-model="#compromiso" scale="1 1 1"
-                              position="0 0 0" animation-mixer="loop: repeat" 
-                              class="clickable" gesture-handler>
-                    </a-entity>
-                </a-marker>
-                
-                <a-marker type="pattern" url="markers/pattern-L.patt" id="marker-diligencia">
-                    <a-entity id="diligencia-model" gltf-model="#diligencia" scale="1 1 1"
-                              position="0 0 0" animation-mixer="loop: repeat" 
                               class="clickable" gesture-handler>
                     </a-entity>
                 </a-marker>
