@@ -44,15 +44,14 @@ const texts = {
       "En el año 2025, la Universidad Popular del Cesar será una Institución de Educación Superior de alta calidad, incluyente y transformadora; comprometida en el desarrollo sustentable de la Región, con visibilidad nacional y alcance internacional. ",
   },
   compromiso: {
-    title: "Valor Intitucional: COMPROMISO",
+    title: "Universidad: ESCUDO",
     content:
-      "Asumir con responsabilidad y entrega las tareas y metas institucionales, aportando al cumplimiento de la misión y visión universitaria. El compromiso en la Universidad Popular del Cesar refleja la disposición de sus miembros para contribuir activamente con el desarrollo personal, profesional y social desde su rol en la comunidad educativa.",
-  },
+      "El escudo de la Universidad Popular del Cesar simboliza el conocimiento y la superación. El diamante representa la luz de la educación, mientras que el azul y el negro reflejan la búsqueda de la verdad y la lucha contra la ignorancia.\n\n Inspirado en la mitología griega, el fuego de Prometeo simboliza la inteligencia, y los laureles representan los logros culturales y académicos. \n\n El escudo se enmarca con el lema "Educación y Futuro", destacando el compromiso de la universidad con el desarrollo y la formación integral. ",
 
   diligencia: {
-    title: "Valor Intitucional: DILIGENCIA",
+    title: "Universidad: BANDERA",
     content:
-      "Cumplir con esmero, responsabilidad y eficiencia las funciones y tareas asignadas, procurando siempre la excelencia. En la Universidad Popular del Cesar, la diligencia impulsa una cultura del trabajo bien hecho, del esfuerzo constante y del compromiso con la mejora continua en los procesos académicos y administrativos.",
+      "Tiene un diseño muy sobrio pero inconfundible, porque le podemos reconocer a lo lejos que es nuestra bandera. Representa el todo y la parte, la esperanza y la blancura impoluta y guarda uniformidad con el ESCUDO ya que se haya estampado en el centro. ",
   },
 }
 
