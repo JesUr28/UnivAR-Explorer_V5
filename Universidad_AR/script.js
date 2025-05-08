@@ -39,9 +39,9 @@ const texts = {
       "El himno de la Universidad Popular del Cesar, escrito y musicalizado por la docente Martha Esther Guerra Muñoz, es una expresión poética del espíritu académico, cultural y humano de la institución.\n\n Su letra exalta valores como el humanismo, la libertad, el conocimiento y la diversidad, resaltando la importancia de la educación como faro de esperanza y transformación.\n\n Con un tono solemne y emotivo, el himno rinde homenaje a la historia, el entorno natural, y el compromiso de estudiantes y docentes con la construcción de un futuro mejor. ",
   },
   justicia: {
-    title: "Valor Intitucional: JUSTICIA",
+    title: "Universidad: VISIÓN",
     content:
-      "Garantizar la equidad, la imparcialidad y el cumplimiento de los derechos y deberes de todos los miembros de la comunidad universitaria. La Universidad Popular del Cesar se compromete con una educación justa, donde se brinda igualdad de oportunidades y se vela por el bienestar común, contribuyendo a una sociedad más equilibrada y solidaria.",
+      "En el año 2025, la Universidad Popular del Cesar será una Institución de Educación Superior de alta calidad, incluyente y transformadora; comprometida en el desarrollo sustentable de la Región, con visibilidad nacional y alcance internacional. ",
   },
   compromiso: {
     title: "Valor Intitucional: COMPROMISO",
